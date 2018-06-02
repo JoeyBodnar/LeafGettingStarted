@@ -1,0 +1,7 @@
+#set("content") {
+    #for(todo in todos) {
+        #embed("todo")
+    }
+}
+#embed("base")
+

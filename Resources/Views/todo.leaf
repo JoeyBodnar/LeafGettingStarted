@@ -1,0 +1,8 @@
+#(pageTitle)
+<div style="background-color: grey; width: 200px; height: 80px">
+    The todo is #(todo.title) and this is index #(index)
+    #if(theBoolean) {
+        The value of boolean is #(theBoolean)
+    }
+</div>
+<br/>
